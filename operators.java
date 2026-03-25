@@ -1,11 +1,10 @@
 import java.util.Scanner;
-
 class operators{
      public static void main(String[] args) {
           System.out.println("Enter first number:");
           Scanner sc=new Scanner(System.in);
           int a=sc.nextInt();
-          System.out.println("Enter second number:");
+          System.out.println("Enter second number:"); 
           int b=sc.nextInt();
           System.out.println("Select the operation you want to perform:");
           int choice=sc.nextInt();
@@ -22,7 +21,7 @@ class operators{
                     int product=a*b;
                     System.out.println("Product of two number is:"+product);
                     break;
-               case 4:
+               case 4
                     int div=a/b;
                     System.out.println("Division of two number is:"+div);
                     break;
