@@ -24,7 +24,7 @@ class User {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Akanshha Kukshal Roll No:2400320100117");
+        System.out.println("Akansha Kukshal Roll No:2400320100117");
 
         User u = new User();
         u.readDetails();
