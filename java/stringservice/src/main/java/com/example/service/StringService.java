@@ -8,8 +8,7 @@ public class StringService {
     public String reverse(String input) {
         return new StringBuilder(input).reverse().toString();
     }
-    System.out.println("hello");
-
+    
     public String toUpper(String input) {
         return input.toUpperCase();
     }
